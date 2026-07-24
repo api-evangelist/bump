@@ -1,0 +1,51 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/bumptech
+status: discontinued
+notes: >-
+  Bump published first-party mobile SDKs for its proximity-matching API. Both
+  repositories were archived on GitHub (read-only, archived 2022-05-27) and the
+  backing Bump API service was shut down 2014-01-31, so these packages are
+  historical only and are not usable. No first-party Bump packages were found on
+  npm, PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist or crates.io.
+  Deliberately NOT wired as a `SDKs` pointer in apis.yml: the libraries exist but
+  target a service that no longer runs.
+packages:
+- language: objective-c
+  platform: ios
+  registry: github
+  name: bump-api-ios
+  url: https://github.com/bumptech/bump-api-ios
+  install: null
+  official: true
+  archived: true
+  http_status: 200
+  description: Bump API iOS SDK — embed Bump proximity matching in an iOS app.
+- language: java
+  platform: android
+  registry: github
+  name: bump-api-android
+  url: https://github.com/bumptech/bump-api-android
+  install: null
+  official: true
+  archived: true
+  http_status: 200
+  description: Bump API Android SDK — embed Bump proximity matching in an Android app.
+registries_checked:
+- registry: npm
+  result: no first-party Bump Technologies package found
+- registry: pypi
+  result: no first-party Bump Technologies package found
+- registry: maven-central
+  result: no first-party Bump API artifact found (bumptech publishes Glide, an unrelated
+    Android image library, not a Bump API client)
+- registry: nuget
+  result: none
+- registry: rubygems
+  result: none
+- registry: packagist
+  result: none
+- registry: crates.io
+  result: none
+- registry: pkg.go.dev
+  result: none

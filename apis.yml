@@ -1,7 +1,28 @@
 aid: bump
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bump.png
 name: Bump
-description: Bump is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Bump Technologies was a Mountain View, California mobile software company
+  (2008-2014) behind Bump, an iOS and Android app that let two people exchange contacts,
+  photos and files by physically bumping their phones together. Bump servers correlated
+  accelerometer, location and network signals from two handsets to match the pair,
+  then brokered the transfer. The company published a first-party Bump API and iOS/Android
+  SDKs so third-party apps could embed the same proximity-matching handshake. Backed
+  by Y Combinator, Sequoia Capital and a $16M Series B led by Andreessen Horowitz in
+  January 2011, Bump was acquired by Google in September 2013 and both the app and
+  its developer API were discontinued on January 31, 2014. The company''s bu.mp domain
+  still serves its shutdown notice and the archived SDK repositories remain public
+  under the bumptech GitHub organization; there is no live API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/bump/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +30,52 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Google (2013-09-16); app and developer API discontinued
+  2014-01-31. No live API surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mobile
+- File Sharing
+- Data Transfer
+- Proximity
+- SDK
+- Defunct
+- Acquired
 apis: []
+common:
+- type: Website
+  name: Bump (shutdown notice)
+  url: http://bu.mp/
+- type: GitHubOrganization
+  name: Bump Technologies on GitHub
+  url: https://github.com/bumptech
+- type: Packages
+  name: Bump SDKs (archived)
+  url: packages/bump-packages.yml
+- type: SourceCode
+  name: Bump API iOS SDK (archived)
+  url: https://github.com/bumptech/bump-api-ios
+- type: SourceCode
+  name: Bump API Android SDK (archived)
+  url: https://github.com/bumptech/bump-api-android
+- type: Lifecycle
+  name: Bump lifecycle and shutdown record
+  url: lifecycle/bump-lifecycle.yml
+- type: DomainSecurity
+  name: Bump domain security probe
+  url: security/bump-domain-security.yml
+- type: LLMsTxt
+  name: Bump llms.txt
+  url: llms/bump-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

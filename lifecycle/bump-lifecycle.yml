@@ -1,0 +1,50 @@
+generated: '2026-07-20'
+method: searched
+source: http://bu.mp/
+status: retired
+summary: >-
+  The Bump API and the Bump consumer apps are fully retired. Bump Technologies was
+  acquired by Google on 2013-09-16; on 2013-12-31 Google announced Bump and Flock
+  would be discontinued, and the apps were pulled from the App Store and Google Play
+  on 2014-01-31. There is no live API, no versioning policy, no SLA and no status
+  page. The bu.mp domain still serves the original shutdown notice.
+versioning: null
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notice: >-
+    No formal deprecation policy was published. Shutdown was announced via the
+    company blog and the bu.mp homepage notice.
+sla: null
+status_page: null
+timeline:
+- date: '2008'
+  event: Bump Technologies founded in Mountain View, CA (Y Combinator).
+  source: https://www.ycombinator.com/companies/bump
+- date: '2009-10'
+  event: $3.4M Series A.
+  source: https://en.wikipedia.org/wiki/Bump_(application)
+- date: '2009-12-22'
+  event: Bump opens its proximity-matching technology as a developer API.
+  source: https://techcrunch.com/2009/12/22/bump-api/
+- date: '2011-01'
+  event: $16M Series B led by Andreessen Horowitz.
+  source: https://en.wikipedia.org/wiki/Bump_(application)
+- date: '2013-09-16'
+  event: Acquired by Google.
+  source: https://techcrunch.com/2013/09/16/bump-mobile-contact-sharing-app-acquired-by-google-will-stay-alive-for-now/
+- date: '2013-12-31'
+  event: Google announces Bump and Flock will be shut down.
+  source: https://techcrunch.com/2013/12/31/google-to-close-bump-and-flock-its-recently-acquired-file-sharing-apps/
+- date: '2014-01-31'
+  event: Bump and Flock removed from the App Store and Google Play; API discontinued.
+  source: https://en.wikipedia.org/wiki/Bump_(application)
+- date: '2022-05-27'
+  event: bumptech/bump-api-ios and bump-api-android archived (read-only) on GitHub.
+  source: https://github.com/bumptech/bump-api-ios
+evidence:
+- source: http://bu.mp/
+  http_status: 200
+  quote: 'Thank you! Bump is no longer available. We''d like to extend a special thank
+    you to all of you who used Bump.'
+deprecated_operations: []

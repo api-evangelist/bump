@@ -1,0 +1,45 @@
+# Bump (Bump Technologies)
+
+> DEFUNCT. Bump Technologies (Mountain View, CA, 2008-2014) made Bump, an iOS and
+> Android app that transferred contacts, photos and files between two phones bumped
+> together, plus a first-party developer API and SDKs that embedded the same
+> proximity-matching handshake in third-party apps. Bump was acquired by Google on
+> 2013-09-16; the apps and the developer API were discontinued on 2014-01-31.
+> There is no live Bump API, no developer portal, no documentation and no support
+> channel. Do not attempt to integrate. This record exists so agents can resolve the
+> name and stop, rather than chase dead endpoints.
+
+## Status
+
+- Company status: acquired (Google, 2013-09-16), product and API retired 2014-01-31
+- API surface: none
+- Homepage http://bu.mp/ returns 200 and serves only a shutdown notice: "Bump is no longer available."
+- bu.mp serves HTTP only (no HTTPS), no DNSSEC, no CAA, no DMARC
+- /.well-known/security.txt, /.well-known/api-catalog, /.well-known/openid-configuration and /llms.txt all return 404 on bu.mp
+- No first-party packages on npm, PyPI, Maven Central, NuGet, RubyGems, Packagist, crates.io or pkg.go.dev
+- Backed by Y Combinator, Sequoia Capital, and a $16M Series B led by Andreessen Horowitz (2011-01)
+
+## Not to be confused with
+
+- Bump.sh — a live, unrelated API documentation platform (see all/bump-sh/)
+- Bumped — a live, unrelated company (see all/bumped/)
+
+## Historical artifacts
+
+- [Bump API iOS SDK (archived)](https://github.com/bumptech/bump-api-ios)
+- [Bump API Android SDK (archived)](https://github.com/bumptech/bump-api-android)
+- [Bump Technologies GitHub organization](https://github.com/bumptech)
+
+## Catalog
+
+- [APIs.json record](https://raw.githubusercontent.com/api-evangelist/bump/refs/heads/main/apis.yml)
+- [Packages](https://raw.githubusercontent.com/api-evangelist/bump/refs/heads/main/packages/bump-packages.yml)
+- [Lifecycle and shutdown record](https://raw.githubusercontent.com/api-evangelist/bump/refs/heads/main/lifecycle/bump-lifecycle.yml)
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/bump/refs/heads/main/security/bump-domain-security.yml)
+
+## References
+
+- [Bump (application) — Wikipedia](https://en.wikipedia.org/wiki/Bump_(application))
+- [Bump shares its phone tapping, data swapping technology with a new API — TechCrunch, 2009-12-22](https://techcrunch.com/2009/12/22/bump-api/)
+- [Bump acquired by Google — TechCrunch, 2013-09-16](https://techcrunch.com/2013/09/16/bump-mobile-contact-sharing-app-acquired-by-google-will-stay-alive-for-now/)
+- [Google to close Bump and Flock — TechCrunch, 2013-12-31](https://techcrunch.com/2013/12/31/google-to-close-bump-and-flock-its-recently-acquired-file-sharing-apps/)
