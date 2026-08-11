@@ -47,6 +47,8 @@ tags:
 - Acquired
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/bumptech/bump-api-ios/issues
 - type: Website
   name: Bump (shutdown notice)
   url: http://bu.mp/
