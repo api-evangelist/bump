@@ -64,19 +64,45 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-**Status: DEFUNCT — acquired by Google 2013-09-16; app and developer API discontinued 2014-01-31. No live API surface.**
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Bump Technologies was a Mountain View, California mobile software company (2008-2014) behind Bump, an iOS and Android app that let two people exchange contacts, photos and files by physically bumping their phones together. Bump servers correlated accelerometer, location and network signals from two handsets to match the pair, then brokered the transfer. The company published a first-party Bump API and iOS/Android SDKs so third-party apps could embed the same proximity-matching handshake.
+Bump Technologies was a Mountain View, California mobile software company (2008-2014) behind Bump, an iOS and Android app that let two people exchange contacts, photos and files by physically bumping their phones together. Bump servers correlated accelerometer, location and network signals from two handsets to match the pair, then brokered the transfer. The company published a first-party Bump API and iOS/Android SDKs so third-party apps could embed the same proximity-matching handshake. Backed by Y Combinator, Sequoia Capital and a $16M Series B led by Andreessen Horowitz in January 2011, Bump was acquired by Google in September 2013 and both the app and its developer API were discontinued on January 31, 2014. The company's bu.mp domain still serves its shutdown notice and the archived SDK repositories remain public under the bumptech GitHub organization; there is no live API surface.
 
-Backed by Y Combinator, Sequoia Capital and a $16M Series B led by Andreessen Horowitz in January 2011. The bu.mp domain still serves the original shutdown notice, and the archived SDK repositories remain public under the [bumptech](https://github.com/bumptech) GitHub organization.
+**Areas:** Company · Mobile · File Sharing · Data Transfer · Proximity · SDK · Defunct · Acquired
 
-Not to be confused with [Bump.sh](https://bump.sh) (`all/bump-sh/`), a live and unrelated API documentation platform, or Bumped (`all/bumped/`).
+## Bump on APIs.io (historical record)
 
-Backed by: a16z
+Everything profiled for Bump is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bump/](https://apis.io/providers/bump/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-- `packages/bump-packages.yml` — archived first-party iOS/Android SDKs
-- `lifecycle/bump-lifecycle.yml` — founding-to-shutdown timeline with sources
-- `security/bump-domain-security.yml` — live TLS/DNS probe of bu.mp
-- `llms/bump-llms.txt` — agent-facing summary (resolve the name, then stop)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Bump Domain Security](https://apis.io/security/bump/bump-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](http://bu.mp/)
+- [GitHub](https://github.com/bumptech)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Bump: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bump/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
